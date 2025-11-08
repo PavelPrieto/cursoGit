@@ -1,0 +1,14 @@
+git init: Inicializa un nuevo repositorio local
+git remote add origin https://github.com/AGET/cursoGit.git: Agrega la referencia remota para este repositorio
+git remote -v: Nos muestra nuestro repositorio remoto enlazado
+git branch -m main: Renombra o crea la rama a main
+git status: Verifica los estado del directorio
+git diff: Verifica las diferencias
+git log: Nos muestra el historial
+git add: Agrega archivos para confirmar
+git commit -m "mensaje": Confirma los cambios
+git push -u origin main: Sube los cambios por primera vez a main
+git clone https://github.com/usuario/repositorio.git: Clona un repositorio
+git pull: Baja los cambios de las ramas remotas
+git checkout -b [nombre_de_la_rama]: Crea una nueva rama y se cambia a ella
+git checkout [nombre_de_la_rama]: Solo cambia de rama
